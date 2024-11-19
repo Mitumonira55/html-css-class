@@ -1,0 +1,43 @@
+body{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1170px;
+}
+section{
+    width: 100%;
+}
+.container-fluid{
+    padding: 0 0!important;
+}
+a{
+    text-decoration: none!important;
+}
+ul ol{
+    list-style-type: none;
+}
+/*all common css end*/
+.navber-nav.nav-link{
+    padding-right: 100px;
+    padding-left: 30px;
+    color: aqua!important;
+}
+.menu ul li a{
+    line-height: 22px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-right: 50px;
+}
+.menu ul{
+    width: 100%;
+    justify-content: flex-end;
+}
+.manu ul li.active{
+    color: blue;
+}
+.menunul li:hover{
+    color: #000;
+}
